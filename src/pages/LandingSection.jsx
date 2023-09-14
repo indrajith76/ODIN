@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 const LandingSection = () => {
-  const texts = ["Positional Trading", "Market Making", "AI Observer"]; 
- 
+  const texts = ["Positional Trading", "Market Making", "AI Observer"];
 
   return (
     <section className="firstBg bgStyle flex flex-col justify-center">
@@ -17,7 +17,14 @@ const LandingSection = () => {
         </div>
         <h2 className="font-medium text-center text-3xl leading-[45px] my-10">
           Enter Odin, a Telegram Based <br />
-          {'text'} Bot On Ethereum
+          <Typewriter
+            options={{
+              strings: texts,
+              autoStart: true,
+              loop: true,
+            }}
+          />{" "}
+          Bot On Ethereum
         </h2>
         <div className="flex justify-center gap-10">
           <button className="px-8 bg-[#B7E5FF] text-black text-sm font-medium py-2 rounded-3xl font">
