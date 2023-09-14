@@ -5,7 +5,7 @@ const LandingSection = () => {
   const texts = ["Positional Trading", "Market Making", "AI Observer"];
 
   return (
-    <section className="firstBg bgStyle flex flex-col justify-center">
+    <section className="firstBg flex flex-col justify-center">
       <div className="">
         <div className="text-center text-sm">
           <Link
@@ -15,7 +15,7 @@ const LandingSection = () => {
             ✦ Try Odin Now
           </Link>
         </div>
-        <h2 className="font-medium text-center text-3xl leading-[45px] my-10">
+        <h2 className="font-medium text-center text-xl md:text-3xl md:leading-[50px] lg:leading-[45px] my-10">
           Enter Odin, a Telegram Based <br />
           <Typewriter
             options={{
@@ -24,6 +24,7 @@ const LandingSection = () => {
               loop: true,
             }}
           />{" "}
+          <br className="block lg:hidden" />
           Bot On Ethereum
         </h2>
         <div className="flex justify-center gap-10">

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import LandingSection from "./LandingSection";
 import IntroSection from "./IntroSection";
 import FeaturesSection from "./FeaturesSection";
-import FAQSection from "./FAQSection"; 
+import FAQSection from "./FAQSection";
 import FAQLastSection from "./FAQLastSection";
 
 const Home = () => {

@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-moving-text": "^0.0.7",
     "react-router-dom": "^6.16.0",
     "typewriter-effect": "^2.20.1"
