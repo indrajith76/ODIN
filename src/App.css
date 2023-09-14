@@ -1,0 +1,52 @@
+.firstBg { 
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+} 
+
+.firstBg {
+  background: url("assets/firstBg.png"), black;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+} 
+
+.secondBG {
+  background: url("assets/secondBG.png"), black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.thirdBG {
+  background: url("assets/thirdBG.png"), black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.fourthBG {
+  background: url("assets/fourthBG.png"), black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.fifthBg {
+  background: url("assets/fifthBg.png"), black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
