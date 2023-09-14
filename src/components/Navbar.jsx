@@ -62,7 +62,7 @@ const Navbar = () => {
         </button>
         <button
           onClick={menu ? () => setMenu(false) : () => setMenu(true)}
-          className="bg-white text-black p-1 rounded-md"
+          className="bg-white text-black p-1 rounded-md block lg:hidden"
         >
           <HiMenu />
         </button>
